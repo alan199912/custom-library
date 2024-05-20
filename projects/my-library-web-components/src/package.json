@@ -1,5 +1,10 @@
 {
-  "name": "my-library-web-components",
-  "version": "0.0.1",
-  "main": "bundle.js"
+  "name": "@alan199912/my-library-web-components",
+  "version": "0.0.2",
+  "main": "bundle.js",
+  "description": "Angular web component",
+  "author": "Alan Di Masi",
+  "publishConfig": {
+    "access": "public"
+  }
 }

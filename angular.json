@@ -15,11 +15,11 @@
       "prefix": "app",
       "architect": {
         "build": {
-          "builder": "ngx-build-plus:build",
+          "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/my-library-web-components/browser",
+            "outputPath": "dist/my-library-web-components/",
             "index": "projects/my-library-web-components/src/index.html",
-            "main": "projects/my-library-web-components/src/main.ts",
+            "browser": "projects/my-library-web-components/src/main.ts",
             "polyfills": ["zone.js"],
             "tsConfig": "projects/my-library-web-components/tsconfig.app.json",
             "inlineStyleLanguage": "scss",

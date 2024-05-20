@@ -9,7 +9,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint",
-    "build:prod": "ng build --configuration production --single-bundle --keep-polyfills"
+    "build:prod": "ng build --configuration production"
   },
   "private": true,
   "dependencies": {
